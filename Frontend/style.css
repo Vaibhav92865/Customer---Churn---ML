@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937
+}
+
+.container{
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+p{
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+form{
+    display: grid;
+    gap: 10px;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+input,
+select{
+    width: 100px;
+    padding: 11px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#result {
+    margin-top: 25px;
+    padding: 18px;
+    border-radius: 10px;
+    background: #f3f4f6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result-card {
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.high-risk {
+    background: #fff1f2;
+    border: 2px solid #ef4444;
+}
+
+.low-risk {
+    background: #ecfdf5;
+    border: 2px solid #22c55e;
+}
+
+.result-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.probability {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.probability-label {
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 12px;
+    background: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    background: #ef4444;
+}
