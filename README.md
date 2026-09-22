@@ -100,3 +100,11 @@ Frontend
 - VS Code
 - Git
 - GitHub
+
+## 👨‍💻 Author
+
+**Vaibhav Pant**
+
+Aspiring AI/ML Engineer | Machine Learning | Generative AI
+
+Built as an end-to-end Machine Learning engineering project.
