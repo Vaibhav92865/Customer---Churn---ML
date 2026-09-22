@@ -2,6 +2,18 @@
 
 An end-to-end Machine Learning project that predicts whether a telecom customer is likely to churn.
 
+## 🚀 Live Demo
+
+**Live Application:**  
+YOUR-FRONTEND-RENDER-URL
+https://customer-churn-frontend-spcs.onrender.com/
+
+**Backend API:**  
+https://customer-churn-ml-81qh.onrender.com
+
+**API Documentation (Swagger):**  
+https://customer-churn-ml-81qh.onrender.com/docs
+
 ## 🚀 Project Overview
 
 This project uses Machine Learning to predict customer churn based on customer demographics, services, contract information, and billing details.
